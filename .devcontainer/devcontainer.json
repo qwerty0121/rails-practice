@@ -4,7 +4,7 @@
   "features": {
     // 1. Ruby環境のインストール（指定バージョン、Bundlerも自動で入ります）
     "ghcr.io/devcontainers/features/ruby:1": {
-      "version": "3.3.0"
+      "version": "3.3.2"
     },
     // 2. Gitのインストール
     "ghcr.io/devcontainers/features/git:1": {}
