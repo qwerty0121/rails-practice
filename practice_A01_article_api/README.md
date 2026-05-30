@@ -27,13 +27,19 @@ Railsの命名規約や `rails generate` コマンド、`resources` ルーティ
 
 ## サーバー起動手順
 
-### 1. データベースを作成する
+### 1. gemをインストールする
+
+```bash
+bundle install
+```
+
+### 2. データベースを作成する
 
 ```bash
 bin/rails db:create
 ```
 
-### 2. Railsサーバーを起動する
+### 3. Railsサーバーを起動する
 
 ```bash
 bin/rails server
