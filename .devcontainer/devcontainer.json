@@ -16,7 +16,6 @@
       "extensions": [
         "Shopify.ruby-lsp",
         "misogi.ruby-rubocop",
-        "castwide.solargraph",
         "mhutchie.git-graph"
       ]
     }
