@@ -10,7 +10,7 @@ class Api::V1::ArticlesController < ApplicationController
       articles = articles.joins(:comments).distinct
     end
 
-    @articles = articles.includes(:user, :tags)
+    @articles = articles.eager_load(:user, :tags)
 
     response = @articles.map do |article|
       {

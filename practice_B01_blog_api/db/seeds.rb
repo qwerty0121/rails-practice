@@ -83,9 +83,7 @@ tag2 = Tag.find_or_create_by!(name: "Ruby on Rails")
 tag3 = Tag.find_or_create_by!(name: "Go")
 
 # Articleにタグを設定
-article1.tags << tag1
-article4.tags << tag1
-article5.tags << tag1
-article1.tags << tag2
+article1.tags << [ tag1, tag2 ]
 article2.tags << tag2
-article5.tags << tag3
+article4.tags << tag1
+article5.tags << [ tag1, tag3 ]
